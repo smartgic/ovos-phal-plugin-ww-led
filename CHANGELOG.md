@@ -1,16 +1,12 @@
 # Changelog
 
-## [0.0.2a2](https://github.com/smartgic/ovos-phal-plugin-ww-led/tree/0.0.2a2) (2024-01-04)
+## [0.0.3a1](https://github.com/smartgic/ovos-phal-plugin-ww-led/tree/0.0.3a1) (2024-01-04)
 
-[Full Changelog](https://github.com/smartgic/ovos-phal-plugin-ww-led/compare/0.0.2a1...0.0.2a2)
+[Full Changelog](https://github.com/smartgic/ovos-phal-plugin-ww-led/compare/0.0.2...0.0.3a1)
 
-**Implemented enhancements:**
+**Merged pull requests:**
 
-- \[init\] Add Docstring and fix linting [\#1](https://github.com/smartgic/ovos-phal-plugin-ww-led/pull/1) ([goldyfruit](https://github.com/goldyfruit))
-
-## [0.0.2a1](https://github.com/smartgic/ovos-phal-plugin-ww-led/tree/0.0.2a1) (2024-01-04)
-
-[Full Changelog](https://github.com/smartgic/ovos-phal-plugin-ww-led/compare/d11d632c50d1a163cf1e02583c62ca4c5844fc7c...0.0.2a1)
+- \[readme\] Update documentation [\#2](https://github.com/smartgic/ovos-phal-plugin-ww-led/pull/2) ([goldyfruit](https://github.com/goldyfruit))
 
 
 
