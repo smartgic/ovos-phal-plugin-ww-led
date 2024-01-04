@@ -24,6 +24,8 @@ The plugin configuration file is `~/.config/OpenVoiceOS/ovos-phal-plugin-ww-led.
 | `wakeword_only` | `false` | Turn on only during the wakeword detection |
 | `pulse`         | `true`  | Make the LED pulsing                       |
 
+### Example
+
 ```json
 {
   "gpio_pin": 25,
