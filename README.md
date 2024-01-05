@@ -2,6 +2,8 @@
 
 A light _(LED)_ indicator when Open Voice OS is listening and/or speaking.
 
+[![Video](https://img.youtube.com/vi/u3cftkais9s/maxresdefault.jpg)](https://www.youtube.com/watch?v=u3cftkais9s)
+
 ## About
 
 This PHAL plugin interacts with a LED connected to a GPIO to let you know if Open Voice OS is listening. When a wake word is detected the LED turns on and when the audio output is over the LED turns off.
