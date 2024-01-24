@@ -1,12 +1,20 @@
 # Changelog
 
-## [0.0.3a1](https://github.com/smartgic/ovos-phal-plugin-ww-led/tree/0.0.3a1) (2024-01-04)
+## [0.1.1a2](https://github.com/smartgic/ovos-phal-plugin-ww-led/tree/0.1.1a2) (2024-01-24)
 
-[Full Changelog](https://github.com/smartgic/ovos-phal-plugin-ww-led/compare/0.0.2...0.0.3a1)
+[Full Changelog](https://github.com/smartgic/ovos-phal-plugin-ww-led/compare/0.1.1a1...0.1.1a2)
+
+**Implemented enhancements:**
+
+- Feat/cancelled event [\#4](https://github.com/smartgic/ovos-phal-plugin-ww-led/pull/4) ([goldyfruit](https://github.com/goldyfruit))
 
 **Merged pull requests:**
 
-- \[readme\] Update documentation [\#2](https://github.com/smartgic/ovos-phal-plugin-ww-led/pull/2) ([goldyfruit](https://github.com/goldyfruit))
+- 0.0.3 [\#3](https://github.com/smartgic/ovos-phal-plugin-ww-led/pull/3) ([github-actions[bot]](https://github.com/apps/github-actions))
+
+## [0.1.1a1](https://github.com/smartgic/ovos-phal-plugin-ww-led/tree/0.1.1a1) (2024-01-05)
+
+[Full Changelog](https://github.com/smartgic/ovos-phal-plugin-ww-led/compare/0.1.0...0.1.1a1)
 
 
 

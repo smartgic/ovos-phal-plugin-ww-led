@@ -43,8 +43,9 @@ class WwLedPlugin(PHALPlugin):
 
             # Map bus events to methods
             self.bus.on("recognizer_loop:record_begin", self._handle_listener_started)
-            self.bus.on("recognizer_loop:record_end", self._handle_listener_ended)
-            self.bus.on("recognizer_loop:audio_output_end", self._handle_audio_ended)
+            self.bus.on("recognizer_loop:record_end", self._handle_led_off)
+            self.bus.on("recognizer_loop:audio_output_end", self._handle_led_off)
+            self.bus.on("ovos.utterance.cancelled", self._handle_led_off)
         except RuntimeError:
             LOG.error("Cannot initialize GPIO - plugin will not load")
 
@@ -75,16 +76,8 @@ class WwLedPlugin(PHALPlugin):
         else:
             GPIO.output(self.gpio_pin, GPIO.HIGH)
 
-    def _handle_listener_ended(self, _):
-        """Handle the record_end event detection and turn the LED off."""
-        if self.wakeword_only:
-            if self.pulse:
-                self.pulsing = False
-            else:
-                GPIO.output(self.gpio_pin, GPIO.LOW)
-
-    def _handle_audio_ended(self, _):
-        """Handle the audio_output_end event detection and turn the LED off."""
+    def _handle_led_off(self, _):
+        """Handle the different events that will lead to turn the LED off."""
         if not self.wakeword_only:
             if self.pulse:
                 self.pulsing = False
