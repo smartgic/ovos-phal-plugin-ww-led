@@ -77,7 +77,7 @@ class WwLedPlugin(PHALPlugin):
             GPIO.output(self.gpio_pin, GPIO.HIGH)
 
     def _handle_led_off(self, _):
-        """Handle the different events that will lead to a turn the LED off."""
+        """Handle the different events that will lead to turn the LED off."""
         if not self.wakeword_only:
             if self.pulse:
                 self.pulsing = False
